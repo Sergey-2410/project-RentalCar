@@ -1,3 +1,5 @@
+//cars/slice.js
+
 import { createSlice } from '@reduxjs/toolkit';
 import { fetchCars } from './operations.js';
 

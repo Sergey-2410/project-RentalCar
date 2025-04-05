@@ -45,6 +45,14 @@ ol {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  outline: none;
+}
+
 img {
   display: block;
   max-width: 100%;

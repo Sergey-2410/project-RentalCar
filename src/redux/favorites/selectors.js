@@ -1,0 +1,1 @@
+//favorites/selectors.js
