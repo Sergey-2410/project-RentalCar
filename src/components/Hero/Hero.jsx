@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import s from './Hero.module.css';
 
 const Hero = () => {
@@ -8,9 +9,11 @@ const Hero = () => {
         <p className={s.text}>
           Reliable and budget-friendly rentals for any journey
         </p>
-        <button type="button" className={s.button}>
-          View Catalog
-        </button>
+        <Link to="/catalog">
+          <button type="button" className={s.button}>
+            View Catalog
+          </button>
+        </Link>
       </div>
     </div>
   );
