@@ -9,14 +9,20 @@ const SearchBar = () => {
           <label className={s.label}>
             Car brand
             <Field as="select" name="brand" className={s.input}>
+              <option value="" disabled selected hidden>
+                Choose a brand
+              </option>
               <option value="Toyota">Toyota</option>
               <option value="BMW">BMW</option>
-              <option value="Audi">Audi</option>
+              <option value="Ford">Ford</option>
             </Field>
           </label>
           <label className={s.label}>
             Price/ 1 hour
             <Field as="select" name="price" className={s.input}>
+              <option value="" disabled selected hidden>
+                Choose a price
+              </option>
               <option value="Toyota">Toyota</option>
               <option value="BMW">BMW</option>
               <option value="Audi">Audi</option>
@@ -28,13 +34,13 @@ const SearchBar = () => {
               <Field
                 type="text"
                 name="from"
-                placeholder="from"
+                placeholder="From"
                 className={s.inputFrom}
               ></Field>
               <Field
                 type="text"
                 name="to"
-                placeholder="to"
+                placeholder="To"
                 className={s.inputTo}
               ></Field>
             </div>

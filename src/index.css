@@ -1,6 +1,8 @@
 @import './styles/fonts.css';
 
 :root {
+  --font-family: 'Manrope', sans-serif;
+  --second-family: 'Inter', sans-serif;
   --main: #101828;
   --gray: #8d929a;
   --gray-light: #dadde1;

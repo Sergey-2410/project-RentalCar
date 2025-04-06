@@ -2,7 +2,6 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/Navigation/Navigation.jsx';
 import { lazy, Suspense } from 'react';
-import clsx from 'clsx';
 
 const HomePage = lazy(() => import('./pages/HomePage/HomePage.jsx'));
 const CatalogPage = lazy(() => import('./pages/CatalogPage/CatalogPage.jsx'));
@@ -15,7 +14,7 @@ const NotFoundPage = lazy(() =>
 
 const App = () => {
   return (
-    <div className={clsx('container')}>
+    <div>
       <Navigation />
       <Suspense fallback={<h2>Loading page...</h2>}>
         <Routes>

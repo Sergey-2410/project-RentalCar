@@ -1,21 +1,9 @@
-.heroBox {
-  background-image: url(/src/assets/images/hero\ 1x.jpg);
-  width: 100%;
-  min-height: 100dvh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .titleBox {
-  position: absolute;
-  transform: translateY(100%);
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 783px;
+  margin: 60px;
 }
 .title {
   font-weight: 700;
